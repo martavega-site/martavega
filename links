@@ -3,25 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MARTA vEGA — Cyberfeminist Links</title>
-  <meta name="description" content="Marta Vega — manifesto / cyberfeminism / links" />
+  <title>MARTA vEGA — Musician // Cyberfeminist Links</title>
+  <meta name="description" content="Marta Vega — musician, artist, cyberfeminist glitch poetics, sound + performance" />
 </head>
 <body style="background:#000; margin:0; font-family:'Courier New', monospace;">
 
-<!-- ▼▼▼ HEADER GOES RIGHT AFTER <body> ▼▼▼ -->
+<!-- ▼ HEADER ▼ -->
 <style>
   :root{
-    --mv-fg:#ff00f2;    /* acid magenta */
-    --mv-cyan:#00ffff;  /* scanline cyan */
-    --mv-green:#00ff88; /* terminal green */
-    --mv-error:#ff0033; /* alert red */
+    --mv-fg:#ff00f2;
+    --mv-cyan:#00ffff;
+    --mv-green:#00ff88;
+    --mv-error:#ff0033;
   }
   .mv-header{
     background:#000; color:var(--mv-fg);
     border:2px solid var(--mv-fg);
     box-shadow:0 0 24px var(--mv-fg), inset 0 0 24px #220022;
     padding:1.25rem 1rem 1rem; margin:0 0 2rem 0; position:relative;
-    overflow:hidden;
   }
   .mv-strip{
     position:absolute; left:-2px; top:-2px; right:-2px;
@@ -44,8 +43,8 @@
   @keyframes mv-g2{ 0%{transform:translate(2px,1px)}   50%{transform:translate(4px,-2px)}  100%{transform:translate(2px,1px)} }
 
   .mv-sub{
-    color:var(--mv-green); font-size:.95rem; letter-spacing:.08em;
-    margin:0 0 .75rem; opacity:.95;
+    color:var(--mv-green); font-size:1rem; letter-spacing:.08em;
+    margin:0 0 .75rem; opacity:.95; font-weight:bold;
   }
   .mv-ascii{
     white-space:pre; font-size:.9rem; line-height:1.2; color:var(--mv-cyan);
@@ -74,18 +73,18 @@
 <header class="mv-header" role="banner">
   <div class="mv-strip">SYSTEM ERROR // CYBERFEMINIST MANIFESTO DETECTED</div>
   <h1 class="mv-title" data-text="MARTA vEGA">MARTA vEGA</h1>
-  <p class="mv-sub">artist // cyberfeminism &amp; glitch poetics // sound + performance <span class="mv-blink">█</span></p>
+  <p class="mv-sub">MUSICIAN • artist • cyberfeminism • glitch poetics • sound + performance <span class="mv-blink">█</span></p>
   <pre class="mv-ascii">
-+------------------------------------------------------------+
-|  node: marta.vega  ::  access granted  ::  html glitch art |
-|  manifesto:// bodies, circuits, desire                     |
-+------------------------------------------------------------+
++--------------------------------------------------------------+
+|  node: MARTA VEGA  ::  MUSICIAN + CYBERFEMINIST GLITCH MAKER |
+|  manifesto:// bodies, circuits, desire                       |
++--------------------------------------------------------------+
   </pre>
 </header>
-<!-- ▲▲▲ HEADER ENDS HERE ▲▲▲ -->
+<!-- ▲ HEADER ▲ -->
 
 
-<!-- ▼▼▼ LINKS ▼▼▼ -->
+<!-- ▼ LINKS ▼ -->
 <main style="text-align:center;">
   <a href="https://www.instagram.com/martavega.xx/" data-text="Instagram" target="_blank">Instagram</a>
   <a href="https://www.facebook.com/martavega.xx" data-text="Facebook" target="_blank">Facebook</a>
@@ -93,7 +92,7 @@
   <a href="https://open.spotify.com/artist/7KtHuw3e8j6LnA4PIHyhAr?autoplay=true" data-text="Spotify" target="_blank">Spotify</a>
   <a href="https://www.tiktok.com/@martavega.xx" data-text="TikTok" target="_blank">TikTok</a>
 </main>
-<!-- ▲▲▲ LINKS END ▲▲▲ -->
+<!-- ▲ LINKS ▲ -->
 
 </body>
 </html>
