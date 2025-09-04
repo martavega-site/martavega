@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MARTA VEGA // cyberfeminist access</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- no frameworks, no CDNs — 90s DIY energy -->
+  <style>
+    /* CRT black + neon */
+    body {
+      margin: 0;
+      background: #000;
+      color: #00ff88;
+      font-family: "Courier New", Courier, monospace;
+    }
+    /* Center a skinny column like old pages */
+    .wrap {
+      max-width: 720px;
+      margin: 24px auto;
+      padding: 8px;
+    }
+    /* ASCII frame */
+    .frame {
+      white-space: pre;           /* keep ASCII spacing */
+      font-size: 14px;
+      line-height: 1.2;
+      color: #00ffaa;
+      text-shadow: 0 0 6px #00ffaa;
+      margin-bottom: 12px;
+    }
+
+    /* Headline — caps + tiny scanlines */
+    h1 {
+      margin: 10px 0 6px;
+      font-size: 18px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ff00ff;
+      text-shadow: 0 0 8px #ff00ff;
+    }
+    .sub {
+      color: #00ffff;
+      font-size: 12px;
+    }
+
+    /* “blink” (since <blink> is dead) */
+    .blink { animation: blink 1s steps(1,end) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    /* Links: chunky, uppercase, boxy */
+    .links {
+      border: 1px dashed #00ffff;
+      padding: 10px;
+      background: rgba(255,255,255,0.03);
+      margin: 12px 0;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: #00ffff;
+      padding: 6px 8px;
+      margin: 6px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border: 1px solid #00ffff;
+    }
+    a:hover {
+      background: #00ffff;
+      color: #000;
+    }
+
+    /* Glitchy offset on hover (cheap & cheerful) */
+    a:hover span {
+      position: relative;
+    }
+    a:hover span::before, a:hover span::after {
+      content: attr(data-text);
+      position: absolute; left: 0; top: 0;
+    }
+    a:hover span::before { transform: translate(-1px, -1px); color: #ff00ff; }
+    a:hover span::after  { transform: translate( 1px,  1px); color: #00ff88; }
+
+    /* footer */
+    .foot {
+      margin-top: 12px;
+      font-size: 11px;
+      color: #9affd9;
+    }
+
+    /* super-retro page hit counter look */
+    .counter {
+      display: inline-block;
+      padding: 2px 4px;
+      border: 1px inset #2affc5;
+      background: #022; 
+      letter-spacing: 1px;
+    }
+
+    /* mobile tweaks */
+    @media (max-width: 480px) {
+      .frame { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+<marquee scrollamount="6" behavior="alternate" direction="left" style="color:#ff00ff;">
+  *** SYSTEM ERROR: CYBERFEMINIST MANIFESTO DETECTED *** <span class="blink">█</span>
+</marquee>
+
+<pre class="frame">
++----------------------------------------------------------------------------+
+|  \\\ VNS-MATRIX-INSPIRED NODE: MARTA VEGA  //  ACCESS TERMINAL v1.0        |
+|  :: manifesto:// cyberfeminism :: hand-coded html :: anti-sleek aesthetics |
++----------------------------------------------------------------------------+
+</pre>
+
+    <h1>&gt; MARTA VEGA // ACCESS LINKS</h1>
+    <div class="sub">“the clitoris is a direct line to the matrix” • raw html • no mercy</div>
+
+    <div class="links" role="navigation" aria-label="primary">
+      <a href="https://www.instagram.com/martavega.xx/" target="_blank" rel="noopener">
+        <span data-text="Instagram">Instagram</span>
+      </a>
+      <a href="https://www.facebook.com/martavega.xx" target="_blank" rel="noopener">
+        <span data-text="Facebook">Facebook</span>
+      </a>
+      <a href="https://www.youtube.com/channel/UC1SN8LmTb6liQTtY2dvYPGA" target="_blank" rel="noopener">
+        <span data-text="YouTube">YouTube</span>
+      </a>
+      <a href="https://open.spotify.com/artist/7KtHuw3e8j6LnA4PIHyhAr?autoplay=true" target="_blank" rel="noopener">
+        <span data-text="Spotify">Spotify</span>
+      </a>
+      <a href="https://www.tiktok.com/@martavega.xx" target="_blank" rel="noopener">
+        <span data-text="TikTok">TikTok</span>
+      </a>
+    </div>
+
+    <!-- optional: drop in a 90s "under construction" gif here -->
+    <!-- <img src="under-construction.gif" alt="Under Construction"> -->
+
+    <div class="foot">
+      <div>© <span id="y"></span> Marta Vega — html forged with nails + neon</div>
+      <div>Visitors: <span class="counter">0001337</span></div>
+    </div>
+  </div>
+
+  <script>
+    // tiny year helper for the footer
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
