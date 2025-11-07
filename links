@@ -7,6 +7,14 @@
   <meta name="description" content="Marta Vega — musician, artist, cyberfeminist glitch poetics, sound + performance" />
 </head>
 <body style="background:#000; margin:0; font-family:'Courier New', monospace;">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11387360503"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-11387360503');
+</script>
 
 <!-- ▼ HEADER ▼ -->
 <style>
@@ -93,6 +101,20 @@
   <a href="https://www.tiktok.com/@martavega.xx" data-text="TikTok" target="_blank">TikTok</a>
 </main>
 <!-- ▲ LINKS ▲ -->
+<!-- Google Ads conversion tracking for Subscribe form -->
+<script>
+  // Track Formspree form submissions
+  document.addEventListener("DOMContentLoaded", function() {
+    const form = document.querySelector('form[action*="formspree"]');
+    if (form) {
+      form.addEventListener("submit", function() {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-11387360503/Zh_XCMqHx7sbEPep9bUq'
+        });
+      });
+    }
+  });
+</script>
 
 </body>
 </html>
